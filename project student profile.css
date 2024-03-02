@@ -1,0 +1,61 @@
+table,
+th,
+td,
+tr {
+    border: 1px solid rgb(140, 187, 47);
+}
+
+p {
+    margin: 1px;
+}
+
+img {
+    width: 90px;
+    margin-left: 50px;
+}
+
+span {
+    font-weight: bold;
+    font-size: small;
+}
+
+h4 {
+    background-color: rgb(46, 247, 163);
+    color: azure;
+    text-align: center;
+    padding: 10px 10px 10px 10px
+
+}
+
+td {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ver {
+    height: 350px;
+    border-left: 2px solid rgb(0, 163, 109);
+    position: absolute;
+    left: 50%;
+}
+.line {
+    align-self: center;
+    border-left: 3px solid rgb(46, 247, 163);
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 17%;
+}
+
+  
